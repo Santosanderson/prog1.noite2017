@@ -1,0 +1,19 @@
+
+#include <stdio.h>
+ int main() 
+ {  
+     int dd,mm,aaaa;  
+     printf("Entre com o dia de 1 a 31:  ");  
+     scanf("%i" ,&dd);
+	   
+    printf("Entre com o mes clique aqui de 1 a 12: ");  
+    scanf("%i",&mm);
+	 
+    printf("Entre com o ano: ");  
+    scanf("%i" ,&aaaa);
+	 
+    printf (" data eh: %i/%i/%i  ",dd,mm,aaaa);
+	  
+    system ("pause");
+    return (0); 
+ }
